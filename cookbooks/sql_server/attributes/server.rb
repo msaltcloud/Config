@@ -26,13 +26,13 @@ default['sql_server']['instance_dir']   = 'C:\Program Files\Microsoft SQL Server
 
 if kernel['machine'] =~ /x86_64/
 
-  default['sql_server']['server']['url']          = 'http://care.dlservice.microsoft.com/dl/download/5/1/A/51A153F6-6B08-4F94-A7B2-BA1AD482BC75/SQLEXPR_x64_ENU.exe'
-  default['sql_server']['server']['checksum']     = '6840255cf493927a3f5e1d7f865b8409ed89133e3657a609da229bab4005b613'
+  default['sql_server']['server']['url']          = 'http://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x64/SQLEXPR_x64_ENU.exe'
+  default['sql_server']['server']['checksum']     = '7F5E3D40B85FBA2DA5093E3621435C209C4AC90D34219BAB8878E93A787CF29F'
   default['sql_server']['server']['package_name'] = 'Microsoft SQL Server 2008 R2 (64-bit)'
 
 else
 
-  default['sql_server']['server']['url']          = 'http://care.dlservice.microsoft.com/dl/download/5/1/A/51A153F6-6B08-4F94-A7B2-BA1AD482BC75/SQLEXPR32_x86_ENU.exe'
+  default['sql_server']['server']['url']          = 'http://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x86/SQLEXPR32_x86_ENU.exe'
   default['sql_server']['server']['checksum']     = '24f75df802a406cf32e854a60b0c340a50865fb310c0f74c7cecc918cff6791c'
   default['sql_server']['server']['package_name'] = 'Microsoft SQL Server 2008 R2 (32-bit)'
 
