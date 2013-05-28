@@ -1,0 +1,5 @@
+# install ASP.NET MVC 4
+webpi_product "MVC4Vs2010_Loc" do
+  accept_eula true
+  action :install
+end

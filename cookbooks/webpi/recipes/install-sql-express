@@ -1,0 +1,5 @@
+# install SQL Server Express 2008 R2
+webpi_product "SqlExpress" do
+  accept_eula true
+  action :install
+end
